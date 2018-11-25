@@ -1,22 +1,11 @@
-# osu-Gameboy
+# osu-EggTrigger
 
-[![NuGet](https://img.shields.io/nuget/v/osu.Framework.Eggs.GameBoy.svg)](https://www.nuget.org/packages/osu.Framework.Eggs.GameBoy)
-[![NuGet](https://img.shields.io/nuget/dt/osu.Framework.Eggs.GameBoy.svg)](https://www.nuget.org/packages/osu.Framework.Eggs.GameBoy)
+This is an unofficial Egg trigger for osu!lazer
+Let developers easily hide their eggs in osu!lazer's ruleset
 
-This is an unofficial Egg for osu!lazer
+It's still under develop
 
 How to work : 
 ```Csharp
-//Create gameboy
-var gameboy = new GameBoyContainer();
 
-//Load rom
-string romPath = "Resources/ROM/Tetris.gb";
-gameBoyContainer.LoadDevice(romPath, Path.ChangeExtension(romPath, ".sav"));
-
-//Add to parent container
-Add(gameBoyContainer);
-
-//Run Gameboy device
-gameBoyContainer.RunDevice();
 ```
